@@ -1,0 +1,21 @@
+concept_hair_follicles <- sc_node_not_relation;;
+concept_hair <- sc_node_not_relation;;
+concept_skin <- sc_node_not_relation;;
+
+hair_follicles=>nrel_main_idtf:[hair follicle](*<-lang_en;;*);;
+hair_follicles=>nrel_main_idtf:[волосянные фолликулы](*<-lang_ru;;*);;
+
+sc_definition -> ...(*
+    ->rrel_key_sc_element:hair_follicles;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[Волосянные фолликулы - отверстия на поверхности кожи, через которое растут волосы.](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[Опр.(волосянные фолликулы)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+      skin;
+      hair
+    };;
+*);;
+
+*);;
