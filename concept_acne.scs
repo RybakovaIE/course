@@ -4,11 +4,11 @@ sc_node_not_relation->concept_skin_desease;;
 sc_node_not_relation->concept_hair_follicles;;
 sc_node_not_relation->concept_acne;;
 
-concept_aortitis=>nrel_main_idtf:[concept_aortitis](*<-lang_en;;*);;
-concept_aortitis=>nrel_main_idtf:[Аортит](*<-lang_ru;;*);;
+concept_acne=>nrel_main_idtf:[concept_acne](*<-lang_en;;*);;
+concept_acne=>nrel_main_idtf:[Акне](*<-lang_ru;;*);;
 
 sc_definition -> ...(*
-    ->rrel_key_sc_element:concept_aortitis;;
+    ->rrel_key_sc_element:concept_acne;;
 
     <=nrel_sc_text_translation: ...(*->rrel_example:[Акне — это хроническое кожное заболевание, развивающееся вследствие закупорки волосяных фолликулов кожным салом и мертвыми клетками кожи](*<-lang_ru;;*);;*);;
 
